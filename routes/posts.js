@@ -52,6 +52,7 @@ router.patch('/:postId', async (req, res) => {
     res.json(removedPost);
   }catch(error){
     res.json(error)
+    console.log("HELLO")
   }
   
 })
